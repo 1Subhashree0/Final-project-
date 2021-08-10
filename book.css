@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+*{
+        padding: 0px;
+        margin: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+body
+{
+ background-image:url(i/tour.jpg);
+    background-size: cover;
+
+}
+:root{
+  --orange:#ffa500;
+}
+header{
+  
+  top:0; left: 0; right:0;
+  background:#333;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:2rem 9%;
+}
+
+.logo{
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color:#fff;
+  text-transform: uppercase;
+}
+ .logo span{
+  color:var(--orange);
+}
+
+  nav a{
+  
+  color: floralwhite;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin: 0 .8rem;
+  display:  inline-block;
+}
+nav a:hover{
+  background-color: lightslategrey;
+  }
+    .banner{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+    
+
+.heading{
+  text-align: center;
+  padding:1.5rem 0
+}
+.heading{
+  font-size: 2.5rem;
+  font-weight: bold;
+  color:white;
+  text-transform: uppercase;
+
+}
+ .heading span{
+ font-size: 2.5rem;
+  font-weight: bolder;
+  color:Black;
+  text-transform: uppercase;
+}
+
+
+.booking-form-box{
+    max-width: 500px;
+    border:1px solid black;
+        margin:5% auto 0;
+    
+}
+
+.radio-btn{
+   margin: 0 20px; 
+}
+.radio-btn.btn{
+    margin: 20px 10px 20px 0;
+    box-shadow: none;
+}
+.radio-btn.btn::after{
+    content:'';
+    height:15px;
+    width:15px;
+    top:-2px;
+    left:-1px;
+    background-color: black;
+    display:inline-block;
+    border:3px solid black;
+    visibility: visible;
+    border-radius: 50%;
+}
+.radio-btn.btn: checked::after{
+    content: '';
+    background-color: black;
+    transition: 0.5s;
+}
+.radio-btn span{
+    color:black;
+    margin-right: 5px;
+    font-size: 12px;
+}
+.booking-form{
+    padding:0 20px 20px;
+}
+.booking-form label{
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 18px;
+    color: black;
+}
+.input-grp{
+    width:220px;
+    display: inline-block;
+}
+
+.ab{
+    
+    font-size: 18px;
+    color:black; 
+        margin-left: 18px;
+
+
+}
+.abc{
+        font-size: 15px;
+    color:black; 
+        margin-left: 18px;
+}
+.sub{
+     box-shadow: none;
+     margin-left: 18px;
+        font-size:12px!important;
+    border-radius: 0!important;
+    color: black!important;
+    background: transparent!important;
+    box-shadow: none!important;
+    
+}
+.input-grp2{
+     margin-left: 20px;
+margin-bottom: 2px;
+}
+.form-control{
+    font-size:12px!important;
+    border-radius: 0!important;
+    color: black!important;
+    background: transparent!important;
+    box-shadow: none!important;
+        
+}
+    .copy-footer
+{
+    background-color: #24262b;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    height: 100%;
+}
+    
+
+@media screen and (max-width:600px) 
